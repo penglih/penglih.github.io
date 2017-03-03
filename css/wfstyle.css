@@ -279,7 +279,8 @@ textarea {
 /*common*/
 
 .w {
-  width: 1230px;/*header height:252px*/
+  width: 100%;/*header height:252px*/
+  max-width: 1230px;
   margin: 0 auto;
 }
 
