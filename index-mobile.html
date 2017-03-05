@@ -1,15 +1,16 @@
 <html lang="zh-CN">
 <head>
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=NO" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>德善电梯科技有限公司</title>
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<link href="css/index-mobile.css" rel="stylesheet" media="screen" type="text/css" />
-<meta http-equiv="mobile-agent" content="format=xhtml;url=/m/index.php">
-<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
-<script language="javascript" type="text/javascript" src="js/index-moblie.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=NO" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>德善电梯科技有限公司</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link href="css/index-mobile.css" rel="stylesheet" media="screen" type="text/css" />
+	<meta http-equiv="mobile-agent" content="format=xhtml;url=/m/index.php">
+	<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+	<script language="javascript" type="text/javascript" src="js/index-moblie.js"></script>
 	<script src="http://www.wanfanggroup.com/templets/wftemplate/js/jquery.bxslider.min.js"></script>
+</head>
 <body class="index">
 	<!-- header -->
 	<header class="header">
@@ -57,7 +58,7 @@
 								 
 							</div>
 						</li><li class="mainlevel">
-							<a href='/web/project/case/' class="n1">全球工程</a>
+							<a href='program-2017-3-4.html' class="n1">中山工程</a>
 							<div class="n2 dropmenu" style="display: none;">
 								 
 									<a href="/web/project/case/">代表案例 </a>
@@ -158,6 +159,24 @@
 				pause: 1000
 			});
 		});
+
+		IsPC();
+		function IsPC() {
+			var userAgentInfo = navigator.userAgent;
+			var Agents = ["Android", "iPhone","SymbianOS", "Windows Phone", "iPod"];
+			var flag = true;
+			for (var v = 0; v < Agents.length; v++) {
+				if (userAgentInfo.indexOf(Agents[v]) > 0) {
+					flag = false;
+					break;
+				}
+			}
+			if(window.screen.width>=768){
+				flag = true;
+				window.location.href="index.html"
+			}
+			return flag;
+		}
 	</script>
 </body>
 </html>

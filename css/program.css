@@ -1,0 +1,40 @@
+.main-container .img-tip {
+	font-size: 20px;
+	display: inline-block;
+	width: 25%;
+}
+
+.main-container .con-2 img{
+	width: 37%;
+}
+
+.main-container .con {
+	margin-top: 20px;
+	display: block;
+}
+
+
+
+.main-container .con-3 img{
+	width: 70%;
+}
+
+.main-container p {
+	text-indent: 2em;
+}
+
+.main-container h1 {
+	text-align: center;
+	font-size: 30px;
+	color: red;
+}
+
+.main-container .time-tip {
+	color: gray;
+    text-align: right;
+    position: relative;
+    right: 73px;
+    display: block;
+    font-size: 14px;
+    top: -4px;
+}

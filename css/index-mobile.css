@@ -284,8 +284,8 @@ textarea {
 }
 
 .header {
-  height: 264px;
-  margin-bottom: 55px;
+  /height: 264px;
+  margin-bottom: 20px;
   background-color: rgb(44,44,44);
 }
 .header>.w:after {
@@ -360,18 +360,18 @@ textarea {
 }
 
 .minor-nav{
-  padding: 76px 0 0px;
+  /padding-top: 22px;
 }
 
 .minor-nav-hd{
-  padding-bottom: 10px;
+  padding: 10px 0 0 25px;
   border-bottom: 1px solid #434343;
   color: #fff;
   font-size: 24px;
 }
 .minor-nav-hd h2{
   /*font-family: Helvetica;*/
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 100;
 }
 .minor-nav-bd ul{
@@ -379,13 +379,16 @@ textarea {
 }
 .minor-nav-bd li{
   float: left;
-  margin-right: 50px;
+  /margin-right: 50px;
+  width: 30%;
 }
 .minor-nav-bd li a{
   float: left;
   color: #ededed;
-  padding: 10px 5px 15px;
+  padding: 10px 0px;
   font-size: 13px;
+  width: 100%;
+  text-align: center;
 }
 
 .minor-nav-bd .on{
@@ -412,7 +415,7 @@ textarea {
 
 /*gird*/
 .content{
-  margin-bottom: 120px;
+  margin-bottom: 15px;
   zoom: 1;
 }
 .content:after {
@@ -423,12 +426,12 @@ textarea {
   height: 0
 }
 .con-bd{
-  margin-right: 348px;
+  /margin-right: 348px;
   border-right: 1px solid #ddd;
   padding-right: 150px;
   min-height: 200px;
   min-height: 50vh;
-  overflow: hidden;
+  /overflow: hidden;
 }
 
 
@@ -841,7 +844,7 @@ textarea {
   padding: 46px 0 5px;
   background-color: #2c2c2c;
   color: #fff;
-  position: absolute;
+  /position: absolute;
   bottom: 0px;
 }
 .footer-bd{
@@ -1090,7 +1093,7 @@ textarea {
 
 h3{
   font-family: "寰蒋闆呴粦";
-  font-size: 24px;
+  font-size: 15px;
   color: #000000;
   font-weight: 100;
 }
