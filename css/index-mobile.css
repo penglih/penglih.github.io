@@ -303,7 +303,7 @@ textarea {
 }
 
 .logo img {
-  width: 100%;
+  width: 150%;
 }
 
 .main-nav {
@@ -525,7 +525,7 @@ textarea {
 }
 
 .index-content{
-  padding: 20px 0 10px;
+  /padding: 20px 0 10px;
 }
 .index-content table{
   margin-bottom: 10px;
@@ -676,6 +676,19 @@ textarea {
 /*img-list*/
 .imgList .w{
   width: 1300px;
+}
+.w .example-engineering {
+  display: block;
+  width:  62%;
+  box-shadow: red;
+  margin: 10px auto;
+  height: 80px;
+  background: rgb(222,222,222);
+  border: 1px solid #ccc;
+  box-shadow: 7px 7px 35px #000;
+  padding: 50px;
+  margin: 30px auto;
+  background-color: #fff;
 }
 .imgList .con-bd{
   padding-right: 20px;
