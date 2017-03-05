@@ -285,7 +285,7 @@ textarea {
 
 .header {
   /height: 264px;
-  margin-bottom: 20px;
+  /margin-bottom: 20px;
   background-color: rgb(44,44,44);
 }
 .header>.w:after {
@@ -380,7 +380,7 @@ textarea {
 .minor-nav-bd li{
   float: left;
   /margin-right: 50px;
-  width: 30%;
+  width: 33.3%;
 }
 .minor-nav-bd li a{
   float: left;
@@ -432,6 +432,7 @@ textarea {
   min-height: 200px;
   min-height: 50vh;
   /overflow: hidden;
+  padding: 18px;
 }
 
 
